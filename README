@@ -1,1 +1,3 @@
-Este programa abre un socket reverso con la finalidad de utilizar netcat en el lado del atacante. No me hago responsable del uso que se le de.
+DISCLAIMER: No me hago responsable del uso que se le de. Hay que añadir en el codigo las ip y puertos que quieres utilizar!
+
+Este programa abre un socket reverso con la finalidad de utilizar netcat en el lado del atacante.
